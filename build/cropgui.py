@@ -11,15 +11,15 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
+from tkinter import messagebox
 
-def cropadd(root):
-    
+def cropadd(root,db):
+
     window1 = tk.Toplevel(root)
     root.iconify()
     window1.protocol("WM_DELETE_WINDOW", lambda: on_top_level_close(window1,root))
-    cred = credentials.Certificate('build/eco-inno.json')
-    firebase_admin.initialize_app(cred)    
-    db=firestore.client()
+  
+    
     window1.geometry("1041x588")
     window1.configure(bg = "#FDFEF0")
 
@@ -58,7 +58,7 @@ def cropadd(root):
         288.0,
         image=entry_image_1
     )
-    entry_1 = Entry(window1,
+    entry_1 = Text(window1,
         bd=0,
         bg="#90EE90",
         fg="#000716",
@@ -112,18 +112,32 @@ def cropadd(root):
 def on_top_level_close(top_level,root):
     top_level.destroy()  # Destroy the top-level window
     root.deiconify()     # Deiconify (restore) the main window
+    
 def add(e1,e2,db):
-    name= e1.get()
-    det=e2.get()
-    collection_ref = db.collection('crops')
+    det= e1.get("1.0", "end-1c")
+    name=e2.get()
+    
+    if(det=="" and name==""):
+        messagebox.showinfo("WARNING","FIELDS CAN NOT \n BE EMPTY.")   
+    else:     
+        collection_ref = db.collection('crops')
+        query = db.collection('crops').where('name', '==', name)
+        print(query)
+        print(type(query))
+        docs = query.get()
+        print(docs)
+        if(len(docs)>0):
+            messagebox.showinfo("WARNING","ALREADY EXISTS.")
+        else:
+            data = {
+                'name': name,
+                'details':det,
+                
+            }
 
-    # Data to be added
-    data = {
-        'name': name,
-        'details':det,
-        # Add more fields as needed
-    }
-
-    # Add data to Firestore
-    document_ref = collection_ref.add(data)
-    #print(f'Document added with ID: {document_ref.id}')
+            # Add data to Firestore
+            document_ref = collection_ref.add(data)
+            messagebox.showinfo("DATABASE",f"{name} is successfully added")
+            e1.delete("1.0", "end")
+            e2.delete(0,"end")
+        #print(f'Document added with ID: {document_ref.id}')
