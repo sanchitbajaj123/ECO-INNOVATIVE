@@ -264,11 +264,15 @@ def cropadd(root,db):
     button_image_3 = PhotoImage(
         file=("assets2/frame0/button_3.png"))
     button_3 = Button(window,
-        image=button_image_3,
+        bg="#0B2A3E",
+        fg="#90EE90",
+        text="Family Name\nScientific Name\nSunlight\n Temperature\n Soil Moisture\nTime",
         borderwidth=0,
+        font=("Arial", 20, "italic"),
         highlightthickness=0,
         command=lambda: show(db),
-        relief="flat"
+        relief="flat",
+    
     )
     button_3.place(
         x=434.0,
@@ -328,12 +332,12 @@ def add(e1,e2,db,hum,tip,airm,sunli,airq,temp):
                 'name': name,
                 'details':det,
                 'image':url,
-                'Humidity':hu,
-                'time periodd':ti,
-                'air moisture':air,
-                'sunlight':sunl,
-                'air quality':aiq,
-                'temperature':tem
+                'soil moisture':hu,
+                'time period':ti,
+                'temperature':air,
+                'family name':sunl,
+                'scientific name':aiq,
+                'sunlight requirment':tem
             }
 
             # Add data to Firestore
