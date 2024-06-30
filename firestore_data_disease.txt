@@ -1,0 +1,29 @@
+{
+  "747Y13He0nPTy7Fd26xd": {
+    "infectious-noninfectios": "3",
+    "image": "https://firebasestorage.googleapis.com/v0/b/eco--innovative.appspot.com/o/images2%2Fhello13.png?alt=media",
+    "details": "65",
+    "cure": "u",
+    "name": "hello13"
+  },
+  "LNjHLPiEEkK5mBebHID8": {
+    "infectious-noninfectios": "Infectious\n",
+    "img": "https://firebasestorage.googleapis.com/v0/b/eco--innovative.appspot.com/o/images%2Fapplecedarapplerust.jpg?alt=media",
+    "details": "Cedar apple rust is a fungal disease with symptoms like rust-colored spots on leaves and fruit, affecting apple trees in proximity to cedar trees.\n",
+    "cure": "Fungicides, removing cedar trees nearby, and proper pruning.\n",
+    "name": "applecedarapplerust"
+  },
+  "RjNnA6nS5cdD2ptMlVAG": {
+    "name": "AppleApplescab",
+    "details": "Apple scab is a fungal disease affecting apple trees, characterized by olive-green to black spots on leaves and fruit.\n",
+    "cure": "Fungicides, pruning, and proper orchard hygiene.\n",
+    "infectious-noninfectios": "Infectious\n"
+  },
+  "aufMJWkZOGcNZ5J5OzvY": {
+    "infectious-noninfectios": "Infectious",
+    "img": "https://firebasestorage.googleapis.com/v0/b/eco--innovative.appspot.com/o/images%2Fappleblackrot.png?alt=media",
+    "details": "Black rot is a fungal disease causing dark lesions on apple fruit and leaves, leading to fruit decay.\n",
+    "cure": "Fungicides, pruning, and removing infected plant material.\n",
+    "name": "appleblackrot"
+  }
+}
