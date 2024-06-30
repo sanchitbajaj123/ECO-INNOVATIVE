@@ -18,28 +18,23 @@ Eco Innovate employs a blend of soil and climate sensors to gather environmental
 # Acknowledgements
 This project was made possible with the help of:
 
-Chirag Gaba
-Pradeep Singh
-Sanchit Bajaj
-Anubhav Mishra
+=> Chirag Gaba
+=> Pradeep Singh
+=> Sanchit Bajaj
+=> Anubhav Mishra
 
 # Copyright
 **The concept and development of the crop prediction system within Eco Innovate are the intellectual property of Chirag Gaba, who is the main founder of this innovative idea. Unauthorized use, reproduction, or distribution of this project without explicit permission from Chirag Gaba is strictly prohibited.**
 
 #### To seek permission for use or to inquire about collaboration, please contact Chirag Gaba at chiraggaba030@gmail.com.
 ### © 2024 Chirag Gaba. All rights reserved.
+
+
+
 ADMIN SIDE:
 <br>
 ![Screenshot (156)](https://github.com/sanchitbajaj123/ECO-INNOVATIVE/assets/110713000/88bc1639-d317-46fd-890b-dc8b3a99f788)
 ![Screenshot (157)](https://github.com/sanchitbajaj123/ECO-INNOVATIVE/assets/110713000/c11d086d-c740-41ff-85a2-37363522e679)
 ![Screenshot (158)](https://github.com/sanchitbajaj123/ECO-INNOVATIVE/assets/110713000/e8e2341b-e520-4caa-b947-31bf061dde5e)
 ![Screenshot (159)](https://github.com/sanchitbajaj123/ECO-INNOVATIVE/assets/110713000/90e33972-2285-4d2f-922e-e74db6416fc6)
-<br>
-USER SIDE:
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n37r3jxfJCk?si=4y1TMhMrT2Xyq48f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
-
-<CENTRE>
