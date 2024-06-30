@@ -18,10 +18,10 @@ Eco Innovate employs a blend of soil and climate sensors to gather environmental
 # Acknowledgements
 This project was made possible with the help of:
 
-=> Chirag Gaba
-=> Pradeep Singh
-=> Sanchit Bajaj
-=> Anubhav Mishra
+* > Chirag Gaba
+* > Pradeep Singh
+* > Sanchit Bajaj
+* > Anubhav Mishra
 
 # Copyright
 **The concept and development of the crop prediction system within Eco Innovate are the intellectual property of Chirag Gaba, who is the main founder of this innovative idea. Unauthorized use, reproduction, or distribution of this project without explicit permission from Chirag Gaba is strictly prohibited.**
